@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     axios.get("/api/test").then((response) => {
       console.log(response.data);
-      
+
     });
   }, [])
   return (
