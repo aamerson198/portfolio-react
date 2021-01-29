@@ -1,0 +1,15 @@
+.about {
+  background-color: whitesmoke;
+  margin-top: 50px;
+  border-radius: 3px;
+  width: auto;
+}
+
+p {
+  margin: 15px;
+}
+
+.drewpic {
+  margin: 15px;
+  float: left;
+}

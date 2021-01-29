@@ -1,33 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-import { useEffect } from "react";
-import axios from "axios";
-
+import React from "react";
+// import Axios from "axios";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./containers/Home/Home";
+import Portfolio from "./containers/Portfolio/Portfolio";
+import Resume from "./containers/Resume/Resume";
 function App() {
 
-  useEffect(() => {
-    axios.get("/api/test").then((response) => {
-      console.log(response.data);
 
-    });
-  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/home" component={Home} />
+      <Route exact path="/portfolio" component={Portfolio} />
+      <Route exact path="/resume" component={Resume} />
+
+
+
+
+    </Router>
+
+
+
+
   );
 }
 
