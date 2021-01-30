@@ -2,48 +2,48 @@
   {
     "id": 1,
     "name": "Budget App",
-    "image": "./images/userdir.png",
-    "description": "An app that tracks your expenses & income", 
+    "image": "./images/budget.png",
+    "description": "An app that tracks your expenses & income.", 
     "ref:": "https://blooming-chamber-97888.herokuapp.com/"
     },
   
     {
     "id": 2,
     "name": "User Directory",
-    "image": "./images/budget.png",
-    "description": "An app that brings in a random API list of users and allows for sorting and searching", 
+    "image": "./images/userdir.png",
+    "description": "An app that brings in a random API list of users and allows for sorting and searching.", 
     "ref:": "https://blooming-chamber-97888.herokuapp.com/"
     },
 
     {
       "id": 3,
-      "name": "User Directory",
-      "image": "./images/userdir.png",
-      "description": "An app that brings in a random API list of users and allows for sorting and searching", 
+      "name": "Fitness App",
+      "image": "./images/fitness.png",
+      "description": "An app that brings in a random API list of users and allows for sorting and searching.", 
       "ref:": "https://blooming-chamber-97888.herokuapp.com/"
       },
 
       {
         "id": 4,
-        "name": "User Directory",
-        "image": "./images/userdir.png",
-        "description": "An app that brings in a random API list of users and allows for sorting and searching",
+        "name": "Tungsten Tools",
+        "image": "./images/Tungsten.png",
+        "description": "An app to facilitate borrowing or renting of tools on a local level.",
         "ref:": "https://blooming-chamber-97888.herokuapp.com/"
         },
 
         {
           "id": 5,
-          "name": "User Directory",
-          "image": "./images/userdir.png",
-          "description": "An app that brings in a random API list of users and allows for sorting and searching",
+          "name": " ATL Public Transit Restaurant Guide",
+          "image": "./images/martapic.png",
+          "description": "This app shows public transit users in Atlanta, GA restaurant options around their train station.",
           "ref:": "https://blooming-chamber-97888.herokuapp.com/" 
           },
 
     {
       "id": 6,
-      "name": "User Directory",
-      "image": "./images/userdir.png",
-      "description": "An app that brings in a random API list of users and allows for sorting and searching",
+      "name": "Daily Planner",
+      "image": "./images/planner.png",
+      "description": "This app allows you to schedule events throughout your day.",
       "ref:": "https://blooming-chamber-97888.herokuapp.com/" 
       }
 ]

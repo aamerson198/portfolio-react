@@ -19,6 +19,9 @@ class Portfolio extends Component {
         <Header></Header>
         <VideoBG></VideoBG>
         <SideNav></SideNav>
+        <div className="titleDiv">
+          <h1 className="title">Portfolio</h1>
+        </div>
         <Wrapper>
           {this.state.Items.map((Item) => (
             <PortfolioItemCard

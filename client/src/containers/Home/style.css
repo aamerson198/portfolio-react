@@ -1,15 +1,20 @@
+.drewpic {
+  margin: 15px;
+  float: left;
+  height: 400px;
+  opacity: 100%;
+  border-radius: 3px;
+}
+
 .about {
   background-color: whitesmoke;
   margin-top: 50px;
   border-radius: 3px;
   width: auto;
+  height: 100%;
+  opacity: 90%;
 }
 
 p {
-  margin: 15px;
-}
-
-.drewpic {
-  margin: 15px;
-  float: left;
+  margin: 30px;
 }
