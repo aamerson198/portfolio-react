@@ -1,6 +1,6 @@
 import React from "react";
 import Headshot from "./headshot.jpeg";
-import "./style.css";
+import "./homeStyle.css";
 import Header from "../../components/Header/Header";
 import VideoBG from "../../components/VideoBG/VideoBG";
 import SideNav from "../../components/SideNav/SideNav";
